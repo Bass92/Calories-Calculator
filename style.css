@@ -1,0 +1,159 @@
+
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+  
+}
+
+
+.calories-calculator{
+    width: 100px;
+    font-family: "Roboto", sans-serif;
+    padding: 8px 24px;
+   /* box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);*/
+    
+} 
+
+.calories-calculator,
+.calories-calculator * {
+    box-sizing: border-box;
+    
+    
+   
+   
+}
+
+.calories-calculator h2{
+    text-align: center;
+    background: black;
+     color: white; 
+font-weight:100px;
+margin:-8px -24px;
+margin-bottom: 8px;
+padding: 16px;
+
+}
+
+
+.calories-calculator form h3{
+    font-size: 20px;
+    margin: 16px 0 10px 0;
+    font-weight: bold;
+}
+
+
+
+.calories-calculator form input[type="text"]{
+    width:100%;
+    padding: 4px 16px;
+    font-size: 22px;
+    COLOR:#00BFFF;
+}
+
+.calories-calculator form{
+    display:flex;
+    flex-direction: column;
+    gap:4px;
+}
+
+.calories-calculator form #female{
+margin-left: 20px;
+}
+
+.calories-calculator form .height,
+.calories-calculator form .weight{ 
+    position: relative;
+ }
+
+
+ .calories-calculator form .unit{
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    font-weight: bold;
+ }
+
+ .calories-calculator .result .calculate-btn{
+    padding: 8px 24px; 
+    margin: 16px 0;
+    font-size: 22px;
+    font-weight: 100;
+    border:none;
+    background:#00BFFF;
+    color:black;  
+    cursor: pointer;
+    float: middle;
+}
+
+.calories-calculator .result{
+    margin-right: 8px;
+    vertical-align: middle;
+    text-align:center; 
+     font-size: 18px; 
+    margin-right: 8px;
+   
+} 
+
+
+.calories-calculator .result-message{
+
+    text-align:center;
+    font-size: 18px;
+    margin-right: 8px;
+    vertical-align: middle; 
+} 
+
+
+
+    .container{
+    margin:100px 0px 0px;          
+    background-color:black;
+    padding: 0px 0px 1px 0px;
+    text-align: center;  
+    color: white;
+   } 
+   
+  
+
+   @media (max-width:375px){
+    .calories-calculator{
+    width:100%;
+       
+    }
+ 
+    .container{
+        margin:130px 0px 0px;   
+    }
+
+    }
+    @media (min-width:375px){
+        .calories-calculator{
+        width:100%;
+        color: blue;
+        }
+        .conatiner{
+            margin:80px 0px 0px;
+        }
+    }
+
+    
+ 
+
+
+
+
+
+  /* @media (min-width:380px){
+    .calories-calculator{
+        width: 640px;
+    }
+   
+  
+}
+*/
+
+
+  
